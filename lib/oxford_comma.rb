@@ -6,7 +6,7 @@ def oxford_comma(array)
   array.each do |item|
 
     if array.at(last_index)
-      converterd_string += " and #{item}"
+      converted_string += " and #{item}"
     elsif array.at(0) && array.length == 2
       converted_string += "#{item}"
     else
