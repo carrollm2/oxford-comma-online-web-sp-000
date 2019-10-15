@@ -13,11 +13,8 @@ def oxford_comma(array)
 
     if array.at(last_index)
       converted_string += " and #{item}"
-    elsif array.at(0) && array.length == 2
-      converted_string += "#{item}"
     else
       converted_string += "#{item}, "
-
     end
   end
 
