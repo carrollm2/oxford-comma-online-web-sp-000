@@ -15,9 +15,9 @@ def oxford_comma(array)
   array.each do |item|
 
     if counter == last_index
-      converted_string += " and #{item}"
+      converted_string += "and #{item}"
     else
-      converted_string += "#{item}, "
+      converted_string += "#{item},"
     end
     counter += 1
   end
