@@ -17,9 +17,9 @@ def oxford_comma(array)
     if counter == last_index
       converted_string += "and #{item}"
     else
-      converted_string += "#{item},"
+      converted_string += "#{item}, "
     end
-    converted_string += " "
+
     counter += 1
   end
 
