@@ -11,13 +11,15 @@ def oxford_comma(array)
     return array[0] + " and " + array[1]
   end
 
+  counter = 0
   array.each do |item|
 
-    if array.at(last_index)
+    if counter == last_index
       converted_string += " and #{item}"
     else
       converted_string += "#{item}, "
     end
+    counter += 1
   end
 
   return converted_string
