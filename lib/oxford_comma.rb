@@ -19,6 +19,7 @@ def oxford_comma(array)
     else
       converted_string += "#{item},"
     end
+    converted_string += " "
     counter += 1
   end
 
